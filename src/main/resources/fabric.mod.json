@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "first-mod",
+	"version": "${version}",
+	"name": "First Mod",
+	"description": "This is my first Minecraft mod",
+	"authors": [
+		"Mohammed Yasser"
+	],
+	"contact": {
+		"homepage": "https://Mohammed.net/",
+		"sources": "https://github.com/First-Minecraft-Mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/first-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mohammed.firstmod.FirstMod"
+		],
+		"fabric-datagen": [
+			"net.mohammed.firstmod.FirstModDataGenerator"
+		],
+		"client": [
+			"net.mohammed.firstmod.FirstModClient"
+		]
+	},
+	"mixins": [
+		"first-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
