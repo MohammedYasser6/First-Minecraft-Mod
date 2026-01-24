@@ -26,8 +26,21 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()
-                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .sounds(BlockSoundGroup.STONE)
 
+            ));
+    public static final Block BLUE_SAPPHIRE_ORE = registerBlock("blue_sapphire_ore",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(3f) // Standard stone hardness
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block BLUE_SAPPHIRE_DEEPSLATE_ORE = registerBlock("blue_sapphire_deepslate_ore",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4.5f, 3f) // Deepslate is tougher to break than stone
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.DEEPSLATE)
             ));
 
     private static Block registerBlock(String name, Block block){
@@ -44,6 +57,8 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ModBlocks.BLUE_SAPPHIRE_BLOCK);
             fabricItemGroupEntries.add(ModBlocks.RAW_BLUE_SAPPHIRE_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.BLUE_SAPPHIRE_DEEPSLATE_ORE);
+            fabricItemGroupEntries.add(ModBlocks.BLUE_SAPPHIRE_ORE);
         });
     }
 }

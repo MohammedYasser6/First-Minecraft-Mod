@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "first-mod",
+	"id": "firstmod",
 	"version": "${version}",
 	"name": "First Mod",
 	"description": "This is my first Minecraft mod",

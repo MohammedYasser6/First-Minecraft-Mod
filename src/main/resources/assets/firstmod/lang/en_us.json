@@ -3,5 +3,7 @@
   "item.firstmod.raw_blue_sapphire": "Raw Blue Sapphire",
 
   "block.firstmod.blue_sapphire_block":"Block of Blue sapphire",
-  "block.firstmod.raw_blue_sapphire_block":"Raw Block of Blue sapphire"
+  "block.firstmod.raw_blue_sapphire_block":"Raw Block of Blue sapphire",
+  "block.firstmod.blue_sapphire_ore":"Blue sapphire ore",
+  "block.firstmod.blue_sapphire_deepslate_ore":"Blue sapphire ore deepslate"
 }
