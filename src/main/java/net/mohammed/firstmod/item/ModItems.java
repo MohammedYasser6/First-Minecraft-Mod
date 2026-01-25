@@ -15,6 +15,8 @@ public class ModItems {
 
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 
+    public static final Item BEEF_SANDWICH = registerItem("beef_sandwich", new Item(new Item.Settings().food(ModFoodComponents.BEEF_SANDWICH)));
+
     private static Item registerItem(String name ,Item item){
         return Registry.register(Registries.ITEM, Identifier.of(FirstMod.MOD_ID, name),item);
     }
@@ -26,6 +28,7 @@ public class ModItems {
             fabricItemGroupEntries.add(BLUE_SAPPHIRE);
             fabricItemGroupEntries.add(RAW_BLUE_SAPPHIRE);
             fabricItemGroupEntries.add(CHISEL);
+            fabricItemGroupEntries.add(BEEF_SANDWICH);
         });
     }
 }
