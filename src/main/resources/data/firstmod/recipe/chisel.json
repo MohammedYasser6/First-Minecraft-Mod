@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "firstmod:blue_sapphire"
+    },
+    "%": {
+      "item": "minecraft:iron_ingot"
+    },
+    "*": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "#",
+    "%",
+    "*"
+  ],
+  "result": {
+    "count": 1,
+    "id": "firstmod:chisel"
+  }
+}
