@@ -7,11 +7,13 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.mohammed.firstmod.FirstMod;
+import net.mohammed.firstmod.item.custom.ChiselItem;
 
 public class ModItems {
     public static final Item BLUE_SAPPHIRE = registerItem("blue_sapphire", new Item(new Item.Settings()));
     public static final Item RAW_BLUE_SAPPHIRE = registerItem("raw_blue_sapphire", new Item(new Item.Settings()));
 
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 
     private static Item registerItem(String name ,Item item){
         return Registry.register(Registries.ITEM, Identifier.of(FirstMod.MOD_ID, name),item);
@@ -23,6 +25,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(BLUE_SAPPHIRE);
             fabricItemGroupEntries.add(RAW_BLUE_SAPPHIRE);
+            fabricItemGroupEntries.add(CHISEL);
         });
     }
 }
