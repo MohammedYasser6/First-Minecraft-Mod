@@ -7,5 +7,15 @@
   "block.firstmod.blue_sapphire_block":"Block of Blue sapphire",
   "block.firstmod.raw_blue_sapphire_block":"Raw Block of Blue sapphire",
   "block.firstmod.blue_sapphire_ore":"Blue sapphire ore",
-  "block.firstmod.blue_sapphire_deepslate_ore":"Blue sapphire ore deepslate"
+  "block.firstmod.blue_sapphire_deepslate_ore":"Blue sapphire ore deepslate",
+
+  "block.firstmod.blue_sapphire_stairs": "Blue Sapphire Stairs",
+  "block.firstmod.blue_sapphire_slab": "Blue Sapphire Slab",
+  "block.firstmod.blue_sapphire_button": "Blue Sapphire Button",
+  "block.firstmod.blue_sapphire_pressure_plate": "Blue Sapphire Pressure Plate",
+  "block.firstmod.blue_sapphire_fence": "Blue Sapphire Fence",
+  "block.firstmod.blue_sapphire_fence_gate": "Blue Sapphire Fence Gate",
+  "block.firstmod.blue_sapphire_wall": "Blue Sapphire Wall",
+  "block.firstmod.blue_sapphire_door": "Blue Sapphire Door",
+  "block.firstmod.blue_sapphire_trapdoor": "Blue Sapphire Trapdoor"
 }

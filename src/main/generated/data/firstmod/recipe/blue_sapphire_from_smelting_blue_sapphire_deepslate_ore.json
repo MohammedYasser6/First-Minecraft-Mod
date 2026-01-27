@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "blue_sapphire",
+  "ingredient": {
+    "item": "firstmod:blue_sapphire_deepslate_ore"
+  },
+  "result": {
+    "id": "firstmod:blue_sapphire"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "M": {
+      "item": "minecraft:cooked_beef"
+    }
+  },
+  "pattern": [
+    " B ",
+    " M ",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "firstmod:beef_sandwich"
+  }
+}

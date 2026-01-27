@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_top",
+  "textures": {
+    "texture": "firstmod:block/blue_sapphire_trapdoor"
+  }
+}
