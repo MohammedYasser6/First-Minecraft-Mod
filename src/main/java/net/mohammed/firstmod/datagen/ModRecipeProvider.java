@@ -98,5 +98,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         // Slab (3 Blocks -> 6 Slabs)
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_SAPPHIRE_SLAB, ModBlocks.BLUE_SAPPHIRE_BLOCK);
+        //lamp recipe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.BLUE_SAPPHIRE_LAMP)
+                .pattern("SSS")
+                .pattern("SRS")
+                .pattern("SSS")
+                .input('S', ModItems.BLUE_SAPPHIRE)
+                .input('R', Items.REDSTONE)
+                .criterion(hasItem(ModItems.BLUE_SAPPHIRE), conditionsFromItem(ModItems.BLUE_SAPPHIRE))
+                .offerTo(exporter);
     }
 }

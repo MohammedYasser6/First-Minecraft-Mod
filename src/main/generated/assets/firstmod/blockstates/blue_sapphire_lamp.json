@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "firstmod:block/blue_sapphire_lamp"
+    },
+    "clicked=true": {
+      "model": "firstmod:block/blue_sapphire_lamp_on"
+    }
+  }
+}

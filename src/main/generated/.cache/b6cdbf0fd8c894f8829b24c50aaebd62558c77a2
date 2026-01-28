@@ -1,8 +1,9 @@
-// 1.21	2026-01-27T03:23:30.7682739	First Mod/Block Loot Tables
+// 1.21	2026-01-28T02:25:02.5539539	First Mod/Block Loot Tables
 075d21023615e66320a63004fe5b5c2398d289c0 data\firstmod\loot_table\blocks\blue_sapphire_trapdoor.json
 c350961b563051eedfad63b7aac68ef13ae8dc94 data\firstmod\loot_table\blocks\blue_sapphire_door.json
 f98b336bd06227b5bc6f5128461ed46b255d7996 data\firstmod\loot_table\blocks\blue_sapphire_stairs.json
 d59a9063dc23fbcc52dd2fe85235244080fa9912 data\firstmod\loot_table\blocks\blue_sapphire_slab.json
+a5e33ec53f1881884a9b3c512a663292d19ee5a6 data\firstmod\loot_table\blocks\blue_sapphire_lamp.json
 4a64b9b807218058a48ba4e885b88b2921a29821 data\firstmod\loot_table\blocks\blue_sapphire_pressure_plate.json
 65aad0b0b3b35dd5333de6f36da973af9065eb19 data\firstmod\loot_table\blocks\blue_sapphire_block.json
 9c5f43d3207718dc6efec93d717c7b508520cfbc data\firstmod\loot_table\blocks\blue_sapphire_ore.json

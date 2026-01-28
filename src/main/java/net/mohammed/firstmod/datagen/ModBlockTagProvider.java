@@ -71,5 +71,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         // Trapdoors (Helps AI pathfinding)
         getOrCreateTagBuilder(BlockTags.TRAPDOORS)
                 .add(ModBlocks.BLUE_SAPPHIRE_TRAPDOOR);
+        //lamp
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.BLUE_SAPPHIRE_LAMP);
     }
 }

@@ -2,10 +2,10 @@ package net.mohammed.firstmod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
+import net.minecraft.data.client.*;
+import net.minecraft.util.Identifier;
 import net.mohammed.firstmod.block.ModBlocks;
+import net.mohammed.firstmod.block.custom.BlueSapphireLampBlock;
 import net.mohammed.firstmod.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -40,6 +40,18 @@ public class ModModelProvider extends FabricModelProvider {
         // (they don't just look like the solid block)
         blockStateModelGenerator.registerDoor(ModBlocks.BLUE_SAPPHIRE_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.BLUE_SAPPHIRE_TRAPDOOR);
+        // --- BLUE SAPPHIRE LAMP LOGIC ---
+        // 1. Register the "Off" Identifier (uses blue_sapphire_lamp.png)
+        Identifier lampOffIdentifier = TexturedModel.CUBE_ALL.upload(ModBlocks.BLUE_SAPPHIRE_LAMP, blockStateModelGenerator.modelCollector);
+
+        // 2. Register the "On" Identifier (uses blue_sapphire_lamp_on.png)
+        Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.BLUE_SAPPHIRE_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
+
+        // 3. Map the boolean "CLICKED" to these models
+        blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.BLUE_SAPPHIRE_LAMP)
+                .coordinate(BlockStateVariantMap.create(BlueSapphireLampBlock.CLICKED)
+                        .register(false, BlockStateVariant.create().put(VariantSettings.MODEL, lampOffIdentifier))
+                        .register(true, BlockStateVariant.create().put(VariantSettings.MODEL, lampOnIdentifier))));
     }
 
     @Override

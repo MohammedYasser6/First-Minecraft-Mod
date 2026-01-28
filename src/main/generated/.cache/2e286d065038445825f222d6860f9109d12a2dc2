@@ -1,5 +1,6 @@
-// 1.21	2026-01-27T03:23:30.7563117	First Mod/Recipes
+// 1.21	2026-01-28T02:25:02.5469731	First Mod/Recipes
 0b499de4d325116421f2593fdec8d82a42c832ef data\firstmod\recipe\beef_sandwich.json
+dd557ef2d99dc886f0fa59524a8476637a6e4254 data\firstmod\recipe\blue_sapphire_lamp.json
 dd38e4d358dd387b57912fc92aefb8262f5f3f94 data\firstmod\recipe\blue_sapphire_slab.json
 6719aec46cd959eb8b1f7e8c91e75ed7bd997cd9 data\firstmod\advancement\recipes\misc\raw_blue_sapphire.json
 9d19b682710dbd0363c0a78f5b2fa311f3f75e96 data\firstmod\recipe\blue_sapphire_from_blasting_blue_sapphire_ore.json
@@ -12,6 +13,7 @@ eb13d7f87b36e9e95623494e1bd4942a1cd51d61 data\firstmod\recipe\blue_sapphire_pres
 1bd89fe5b948be09e947cb6911db085ec451430f data\firstmod\recipe\blue_sapphire_from_blasting_raw_blue_sapphire.json
 003bcc532064156b631030bb985dbb2deb829b43 data\firstmod\advancement\recipes\misc\blue_sapphire_from_blasting_raw_blue_sapphire.json
 d3cae46ae8ba7fca1e469b9d6de3b7f159741837 data\firstmod\recipe\chisel.json
+55d456a001c43502f9b33849ed822dad2e3ccd2b data\firstmod\advancement\recipes\redstone\blue_sapphire_lamp.json
 72e5719fcf247284efc6cb2843c541c39effb446 data\firstmod\advancement\recipes\redstone\blue_sapphire_door.json
 9665633cb3b65de3a32517f8c328bff7aaa716c1 data\firstmod\advancement\recipes\building_blocks\blue_sapphire_stairs.json
 afd111157d3890698b2160073406b7a78268b14e data\firstmod\recipe\blue_sapphire_fence.json

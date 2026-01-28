@@ -10,6 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.mohammed.firstmod.FirstMod;
+import net.mohammed.firstmod.block.custom.BlueSapphireLampBlock;
 
 public class ModBlocks {
 
@@ -81,7 +82,10 @@ public class ModBlocks {
     public static final Block BLUE_SAPPHIRE_TRAPDOOR = registerBlock("blue_sapphire_trapdoor",
             new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.copy(BLUE_SAPPHIRE_BLOCK).nonOpaque()));
 
-
+    // --- LAMP ---
+    public static final Block BLUE_SAPPHIRE_LAMP = registerBlock("blue_sapphire_lamp",
+            new BlueSapphireLampBlock(AbstractBlock.Settings.create()
+                    .strength(1f).requiresTool().luminance(state -> state.get(BlueSapphireLampBlock.CLICKED) ? 15 : 0)));
     // --- REGISTRATION ---
 
     private static Block registerBlock(String name, Block block) {
@@ -112,6 +116,8 @@ public class ModBlocks {
             fabricItemGroupEntries.add(ModBlocks.BLUE_SAPPHIRE_WALL);
             fabricItemGroupEntries.add(ModBlocks.BLUE_SAPPHIRE_DOOR);
             fabricItemGroupEntries.add(ModBlocks.BLUE_SAPPHIRE_TRAPDOOR);
+
+            fabricItemGroupEntries.add(ModBlocks.BLUE_SAPPHIRE_LAMP);
         });
     }
 }

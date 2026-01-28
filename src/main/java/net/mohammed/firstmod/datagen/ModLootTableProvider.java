@@ -48,6 +48,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         // Slab: Ensures if it's a "Double Slab", it drops 2 items instead of 1
         addDrop(ModBlocks.BLUE_SAPPHIRE_SLAB, slabDrops(ModBlocks.BLUE_SAPPHIRE_SLAB));
+        //lamp
+        addDrop(ModBlocks.BLUE_SAPPHIRE_LAMP);
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {
