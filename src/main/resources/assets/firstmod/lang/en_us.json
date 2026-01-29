@@ -4,6 +4,12 @@
   "item.firstmod.chisel": "Chisel",
   "item.firstmod.beef_sandwich": "Beef Sandwich",
 
+  "item.firstmod.blue_sapphire_sword": "Blue Sapphire Sword",
+  "item.firstmod.blue_sapphire_pickaxe": "Blue Sapphire Pickaxe",
+  "item.firstmod.blue_sapphire_axe": "Blue Sapphire Axe",
+  "item.firstmod.blue_sapphire_shovel": "Blue Sapphire Shovel",
+  "item.firstmod.blue_sapphire_hoe": "Blue Sapphire Hoe",
+
   "block.firstmod.blue_sapphire_block":"Block of Blue sapphire",
   "block.firstmod.raw_blue_sapphire_block":"Raw Block of Blue sapphire",
   "block.firstmod.blue_sapphire_ore":"Blue sapphire ore",

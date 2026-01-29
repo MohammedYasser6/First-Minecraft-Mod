@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "firstmod:blue_sapphire"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "SS ",
+    "ST ",
+    " T "
+  ],
+  "result": {
+    "count": 1,
+    "id": "firstmod:blue_sapphire_axe"
+  }
+}

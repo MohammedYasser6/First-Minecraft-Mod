@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#minecraft:incorrect_for_iron_tool"
+  ],
+  "remove": [
+    "#firstmod:incorrect_for_blue_sapphire_tool"
+  ]
+}
