@@ -47,5 +47,19 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.Items.BLUE_SAPPHIRE_ITEMS)
                 .add(ModItems.BLUE_SAPPHIRE)
                 .add(ModItems.RAW_BLUE_SAPPHIRE);
+
+        // --- armor trims
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.BLUE_SAPPHIRE_HELMET)
+                .add(ModItems.BLUE_SAPPHIRE_CHESTPLATE)
+                .add(ModItems.BLUE_SAPPHIRE_LEGGINGS)
+                .add(ModItems.BLUE_SAPPHIRE_BOOTS);
+
+        // --- SPECIFIC ARMOR SLOTS (Add these too!) ---
+        getOrCreateTagBuilder(ItemTags.HEAD_ARMOR).add(ModItems.BLUE_SAPPHIRE_HELMET);
+        getOrCreateTagBuilder(ItemTags.CHEST_ARMOR).add(ModItems.BLUE_SAPPHIRE_CHESTPLATE);
+        getOrCreateTagBuilder(ItemTags.LEG_ARMOR).add(ModItems.BLUE_SAPPHIRE_LEGGINGS);
+        getOrCreateTagBuilder(ItemTags.FOOT_ARMOR).add(ModItems.BLUE_SAPPHIRE_BOOTS);
+
     }
 }

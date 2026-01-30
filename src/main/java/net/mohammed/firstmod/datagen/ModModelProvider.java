@@ -3,6 +3,7 @@ package net.mohammed.firstmod.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
 import net.mohammed.firstmod.block.ModBlocks;
 import net.mohammed.firstmod.block.custom.BlueSapphireLampBlock;
@@ -64,5 +65,10 @@ public class ModModelProvider extends FabricModelProvider {
 
         // Added Hammer here
         itemModelGenerator.register(ModItems.BLUE_SAPPHIRE_HAMMER, Models.HANDHELD);
+        // Add armor
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BLUE_SAPPHIRE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BLUE_SAPPHIRE_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BLUE_SAPPHIRE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BLUE_SAPPHIRE_CHESTPLATE));
     }
 }

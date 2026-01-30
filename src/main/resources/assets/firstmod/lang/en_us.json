@@ -9,7 +9,13 @@
   "item.firstmod.blue_sapphire_axe": "Blue Sapphire Axe",
   "item.firstmod.blue_sapphire_shovel": "Blue Sapphire Shovel",
   "item.firstmod.blue_sapphire_hoe": "Blue Sapphire Hoe",
-  "item.firstmod.blue_hammer": "Blue Sapphire Hammer",
+  "item.firstmod.blue_sapphire_hammer": "Blue Sapphire Hammer",
+
+  "item.firstmod.blue_sapphire_helmet": "Blue Sapphire Helmet",
+  "item.firstmod.blue_sapphire_chestplate": "Blue Sapphire Chestplate",
+  "item.firstmod.blue_sapphire_leggings": "Blue Sapphire Leggings",
+  "item.firstmod.blue_sapphire_boots": "Blue Sapphire Boots",
+
 
   "block.firstmod.blue_sapphire_block":"Block of Blue sapphire",
   "block.firstmod.raw_blue_sapphire_block":"Raw Block of Blue sapphire",

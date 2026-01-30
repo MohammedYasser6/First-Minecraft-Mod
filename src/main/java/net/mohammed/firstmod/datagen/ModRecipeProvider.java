@@ -144,13 +144,49 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BLUE_SAPPHIRE), conditionsFromItem(ModItems.BLUE_SAPPHIRE))
                 .offerTo(exporter);
 
-        // Hammer (5 Gems + 2 Sticks)
+        // Hammer
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BLUE_SAPPHIRE_HAMMER)
                 .pattern("SSS")
                 .pattern("STS")
                 .pattern(" T ")
                 .input('S', ModItems.BLUE_SAPPHIRE)
                 .input('T', Items.STICK)
+                .criterion(hasItem(ModItems.BLUE_SAPPHIRE), conditionsFromItem(ModItems.BLUE_SAPPHIRE))
+                .offerTo(exporter);
+
+        // --- BLUE SAPPHIRE ARMOR ---
+
+        // Helmet
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BLUE_SAPPHIRE_HELMET)
+                .pattern("SSS")
+                .pattern("S S")
+                .input('S', ModItems.BLUE_SAPPHIRE)
+                .criterion(hasItem(ModItems.BLUE_SAPPHIRE), conditionsFromItem(ModItems.BLUE_SAPPHIRE))
+                .offerTo(exporter);
+
+        // Chestplate
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BLUE_SAPPHIRE_CHESTPLATE)
+                .pattern("S S")
+                .pattern("SSS")
+                .pattern("SSS")
+                .input('S', ModItems.BLUE_SAPPHIRE)
+                .criterion(hasItem(ModItems.BLUE_SAPPHIRE), conditionsFromItem(ModItems.BLUE_SAPPHIRE))
+                .offerTo(exporter);
+
+        // Leggings
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BLUE_SAPPHIRE_LEGGINGS)
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("S S")
+                .input('S', ModItems.BLUE_SAPPHIRE)
+                .criterion(hasItem(ModItems.BLUE_SAPPHIRE), conditionsFromItem(ModItems.BLUE_SAPPHIRE))
+                .offerTo(exporter);
+
+        // Boots
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BLUE_SAPPHIRE_BOOTS)
+                .pattern("S S")
+                .pattern("S S")
+                .input('S', ModItems.BLUE_SAPPHIRE)
                 .criterion(hasItem(ModItems.BLUE_SAPPHIRE), conditionsFromItem(ModItems.BLUE_SAPPHIRE))
                 .offerTo(exporter);
     }

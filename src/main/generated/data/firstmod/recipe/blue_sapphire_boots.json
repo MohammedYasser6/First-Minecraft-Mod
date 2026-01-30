@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "firstmod:blue_sapphire"
+    }
+  },
+  "pattern": [
+    "S S",
+    "S S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "firstmod:blue_sapphire_boots"
+  }
+}
