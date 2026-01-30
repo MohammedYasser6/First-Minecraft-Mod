@@ -29,7 +29,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSmelting(exporter, BLUE_SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.BLUE_SAPPHIRE, 0.25f, 200, "blue_sapphire");
         offerBlasting(exporter, BLUE_SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.BLUE_SAPPHIRE, 0.25f, 100, "blue_sapphire");
 
-        // --- COMPACTING (9 Items <-> 1 Block) ---
+        // --- COMPACTING ---
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.RAW_BLUE_SAPPHIRE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RAW_BLUE_SAPPHIRE_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.BLUE_SAPPHIRE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_SAPPHIRE_BLOCK);
 
@@ -64,29 +64,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
 
         offerPressurePlateRecipe(exporter, ModBlocks.BLUE_SAPPHIRE_PRESSURE_PLATE, ModBlocks.BLUE_SAPPHIRE_BLOCK);
-
         createFenceRecipe(ModBlocks.BLUE_SAPPHIRE_FENCE, Ingredient.ofItems(ModBlocks.BLUE_SAPPHIRE_BLOCK))
                 .criterion(hasItem(ModBlocks.BLUE_SAPPHIRE_BLOCK), conditionsFromItem(ModBlocks.BLUE_SAPPHIRE_BLOCK))
                 .offerTo(exporter);
-
         createFenceGateRecipe(ModBlocks.BLUE_SAPPHIRE_FENCE_GATE, Ingredient.ofItems(ModBlocks.BLUE_SAPPHIRE_BLOCK))
                 .criterion(hasItem(ModBlocks.BLUE_SAPPHIRE_BLOCK), conditionsFromItem(ModBlocks.BLUE_SAPPHIRE_BLOCK))
                 .offerTo(exporter);
-
         offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.BLUE_SAPPHIRE_WALL, ModBlocks.BLUE_SAPPHIRE_BLOCK);
-
         createDoorRecipe(ModBlocks.BLUE_SAPPHIRE_DOOR, Ingredient.ofItems(ModBlocks.BLUE_SAPPHIRE_BLOCK))
                 .criterion(hasItem(ModBlocks.BLUE_SAPPHIRE_BLOCK), conditionsFromItem(ModBlocks.BLUE_SAPPHIRE_BLOCK))
                 .offerTo(exporter);
-
         createTrapdoorRecipe(ModBlocks.BLUE_SAPPHIRE_TRAPDOOR, Ingredient.ofItems(ModBlocks.BLUE_SAPPHIRE_BLOCK))
                 .criterion(hasItem(ModBlocks.BLUE_SAPPHIRE_BLOCK), conditionsFromItem(ModBlocks.BLUE_SAPPHIRE_BLOCK))
                 .offerTo(exporter);
-
         createStairsRecipe(ModBlocks.BLUE_SAPPHIRE_STAIRS, Ingredient.ofItems(ModBlocks.BLUE_SAPPHIRE_BLOCK))
                 .criterion(hasItem(ModBlocks.BLUE_SAPPHIRE_BLOCK), conditionsFromItem(ModBlocks.BLUE_SAPPHIRE_BLOCK))
                 .offerTo(exporter);
-
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_SAPPHIRE_SLAB, ModBlocks.BLUE_SAPPHIRE_BLOCK);
 
         // Lamp
@@ -145,6 +138,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BLUE_SAPPHIRE_HOE)
                 .pattern("SS ")
                 .pattern(" T ")
+                .pattern(" T ")
+                .input('S', ModItems.BLUE_SAPPHIRE)
+                .input('T', Items.STICK)
+                .criterion(hasItem(ModItems.BLUE_SAPPHIRE), conditionsFromItem(ModItems.BLUE_SAPPHIRE))
+                .offerTo(exporter);
+
+        // Hammer (5 Gems + 2 Sticks)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BLUE_SAPPHIRE_HAMMER)
+                .pattern("SSS")
+                .pattern("STS")
                 .pattern(" T ")
                 .input('S', ModItems.BLUE_SAPPHIRE)
                 .input('T', Items.STICK)

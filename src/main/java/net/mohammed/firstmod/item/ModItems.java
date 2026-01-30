@@ -7,6 +7,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.mohammed.firstmod.FirstMod;
 import net.mohammed.firstmod.item.custom.ChiselItem;
+import net.mohammed.firstmod.item.custom.HammerItem; // Import your Hammer class
 
 public class ModItems {
     // --- INGREDIENTS ---
@@ -15,6 +16,12 @@ public class ModItems {
 
     // --- CUSTOM TOOLS ---
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
+
+    // --- HAMMER ---
+    // High Damage (7), Very Slow Speed (-3.4f)
+    public static final Item BLUE_SAPPHIRE_HAMMER = registerItem("blue_sapphire_hammer",
+            new HammerItem(ModToolMaterials.BLUE_SAPPHIRE, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.BLUE_SAPPHIRE, 7, -3.4f))));
 
     // --- BLUE SAPPHIRE TOOLS & WEAPONS ---
     // Sword: 3 Attack Damage, -2.4 Attack Speed
@@ -64,6 +71,7 @@ public class ModItems {
         // Add to Tools Tab
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(CHISEL);
+            fabricItemGroupEntries.add(BLUE_SAPPHIRE_HAMMER); // Added Hammer here
             fabricItemGroupEntries.add(BLUE_SAPPHIRE_PICKAXE);
             fabricItemGroupEntries.add(BLUE_SAPPHIRE_AXE);
             fabricItemGroupEntries.add(BLUE_SAPPHIRE_SHOVEL);
@@ -74,6 +82,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(BLUE_SAPPHIRE_SWORD);
             fabricItemGroupEntries.add(BLUE_SAPPHIRE_AXE);
+            fabricItemGroupEntries.add(BLUE_SAPPHIRE_HAMMER); // Optional: Hammers are good weapons too!
         });
 
         // Add to Food Tab

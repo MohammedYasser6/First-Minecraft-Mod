@@ -56,11 +56,13 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
 
         // --- TOOLS (Held by Handle) ---
-        // I added these specifically for you:
         itemModelGenerator.register(ModItems.BLUE_SAPPHIRE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BLUE_SAPPHIRE_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BLUE_SAPPHIRE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BLUE_SAPPHIRE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BLUE_SAPPHIRE_HOE, Models.HANDHELD);
+
+        // Added Hammer here
+        itemModelGenerator.register(ModItems.BLUE_SAPPHIRE_HAMMER, Models.HANDHELD);
     }
 }

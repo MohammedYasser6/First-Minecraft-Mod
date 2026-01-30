@@ -7,6 +7,8 @@ import net.mohammed.firstmod.component.ModDataComponentTypes;
 import net.mohammed.firstmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
+import net.mohammed.firstmod.util.HammerUsageEvent;
 
 public class FirstMod implements ModInitializer {
 	public static final String MOD_ID = "firstmod";
@@ -18,6 +20,7 @@ public class FirstMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModDataComponentTypes.registerDataComponentTypes();
+		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
 
 
 	}
