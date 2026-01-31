@@ -8,6 +8,7 @@ import net.minecraft.util.Identifier;
 import net.mohammed.firstmod.FirstMod;
 import net.mohammed.firstmod.item.custom.ChiselItem;
 import net.mohammed.firstmod.item.custom.HammerItem;
+import net.mohammed.firstmod.item.custom.ModArmorItem;
 
 public class ModItems {
     // --- INGREDIENTS ---
@@ -49,7 +50,7 @@ public class ModItems {
 
     // --- ARMOR ---
     public static final Item BLUE_SAPPHIRE_HELMET = registerItem("blue_sapphire_helmet",
-            new ArmorItem(ModArmorMaterials.BLUE_SAPPHIRE_ARMOUR_MATERIALS, ArmorItem.Type.HELMET, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.BLUE_SAPPHIRE_ARMOUR_MATERIALS, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(33)))); // 33 is the durability multiplier (Diamond level)
 
     public static final Item BLUE_SAPPHIRE_CHESTPLATE = registerItem("blue_sapphire_chestplate",
