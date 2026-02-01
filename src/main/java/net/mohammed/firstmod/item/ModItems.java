@@ -50,7 +50,7 @@ public class ModItems {
 
     // --- ARMOR ---
     public static final Item BLUE_SAPPHIRE_HELMET = registerItem("blue_sapphire_helmet",
-            new ModArmorItem(ModArmorMaterials.BLUE_SAPPHIRE_ARMOUR_MATERIALS, ArmorItem.Type.HELMET, new Item.Settings()
+            new ModArmorItem(   ModArmorMaterials.BLUE_SAPPHIRE_ARMOUR_MATERIALS, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(33)))); // 33 is the durability multiplier (Diamond level)
 
     public static final Item BLUE_SAPPHIRE_CHESTPLATE = registerItem("blue_sapphire_chestplate",
