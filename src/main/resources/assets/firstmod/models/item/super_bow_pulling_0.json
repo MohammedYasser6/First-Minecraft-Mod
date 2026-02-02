@@ -1,0 +1,6 @@
+{
+  "parent": "firstmod:item/super_bow",
+  "textures": {
+    "layer0": "firstmod:item/super_bow_pulling_0"
+  }
+}

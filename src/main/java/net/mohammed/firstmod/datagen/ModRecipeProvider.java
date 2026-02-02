@@ -189,5 +189,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', ModItems.BLUE_SAPPHIRE)
                 .criterion(hasItem(ModItems.BLUE_SAPPHIRE), conditionsFromItem(ModItems.BLUE_SAPPHIRE))
                 .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.SUPER_BOW)
+                .pattern(" SN")
+                .pattern("S B")
+                .pattern(" SN")
+                .input('S', Items.STRING)
+                .input('B', ModItems.BLUE_SAPPHIRE)
+                .input('N', Items.NETHER_STAR)
+                .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
+                .offerTo(exporter);
+
     }
 }

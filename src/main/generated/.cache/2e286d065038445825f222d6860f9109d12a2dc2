@@ -1,4 +1,4 @@
-// 1.21	2026-01-30T06:40:43.1926925	First Mod/Recipes
+// 1.21	2026-02-02T02:39:02.4533375	First Mod/Recipes
 dd557ef2d99dc886f0fa59524a8476637a6e4254 data\firstmod\recipe\blue_sapphire_lamp.json
 dd38e4d358dd387b57912fc92aefb8262f5f3f94 data\firstmod\recipe\blue_sapphire_slab.json
 239ee67624422251ea5b4d1052d886a4b708332e data\firstmod\advancement\recipes\misc\blue_sapphire_from_blasting_blue_sapphire_deepslate_ore.json
@@ -25,6 +25,7 @@ ee14c8c158f0ccddb46dae0e413cd42ca7c9460c data\firstmod\advancement\recipes\redst
 6c86df9a28fa61591167fda6e2241bd8a30930cd data\firstmod\advancement\recipes\tools\blue_sapphire_hammer.json
 59c90a0b4241d81ab8e056e293af7bfd2d4a6bf3 data\firstmod\advancement\recipes\tools\chisel.json
 06189d55cd46f8dd18a63220bfba72c245b73f50 data\firstmod\advancement\recipes\building_blocks\raw_blue_sapphire_block.json
+379a421250dd2dd1da6f6398cf0fe2e0f7969926 data\firstmod\recipe\super_bow.json
 d901ca530893056b25cca54bc431f3f8f680fd08 data\firstmod\advancement\recipes\building_blocks\blue_sapphire_slab.json
 10eb77a6d771268adcbe02cfa032c168d2023978 data\firstmod\recipe\blue_sapphire_button.json
 2487c7bce2ff5fc7d37b5bb1e3e5aab294a157ec data\firstmod\advancement\recipes\tools\blue_sapphire_pickaxe.json
@@ -45,6 +46,7 @@ a6b6c962293bb3f4f88ecfa007b7cd58e67676f8 data\firstmod\advancement\recipes\comba
 55d456a001c43502f9b33849ed822dad2e3ccd2b data\firstmod\advancement\recipes\redstone\blue_sapphire_lamp.json
 72e5719fcf247284efc6cb2843c541c39effb446 data\firstmod\advancement\recipes\redstone\blue_sapphire_door.json
 8a7a8fafdab38a2de6b4312516bdfdd3b787bc68 data\firstmod\recipe\blue_sapphire_chestplate.json
+a25d12c5fc5b45342f8fcb4860081d01d27ca7b0 data\firstmod\advancement\recipes\combat\super_bow.json
 afd111157d3890698b2160073406b7a78268b14e data\firstmod\recipe\blue_sapphire_fence.json
 4a4162ecba196808a82e27740ee938572fda2867 data\firstmod\recipe\blue_sapphire_shovel.json
 328a723abe4156fb926b06271e28bb5ab02143fb data\firstmod\advancement\recipes\tools\blue_sapphire_shovel.json

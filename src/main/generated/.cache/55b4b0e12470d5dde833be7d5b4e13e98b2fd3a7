@@ -1,4 +1,4 @@
-// 1.21	2026-01-30T06:40:43.2046613	First Mod/Model Definitions
+// 1.21	2026-02-02T02:39:02.4633074	First Mod/Model Definitions
 468a5fe816f383cce75c5a42f9f5cc23dd9b5784 assets\firstmod\models\block\blue_sapphire_fence_gate_wall.json
 c21761bf32f03064fdcbe6804800fcb947193598 assets\firstmod\blockstates\raw_blue_sapphire_block.json
 98452b40b1f9b0f9d0a25731321237dcabcebc71 assets\firstmod\models\item\blue_sapphire_sword.json
@@ -41,8 +41,8 @@ adbbda6213f47a0b9c600cbce39915196e6c8344 assets\firstmod\models\item\blue_sapphi
 1bc6878d58fcbc6c5dc21909ae99a15e228c0ad8 assets\firstmod\blockstates\blue_sapphire_slab.json
 68f1ad1bcd3017b6e977b1e948f7e0b72f0a9644 assets\firstmod\models\item\blue_sapphire_helmet.json
 336acefb65a3abf92f53db2d09eb34f0f736595c assets\firstmod\models\item\blue_sapphire_chestplate_amethyst_trim.json
-b40b22c25ccc7b4b201e14bcc7ef61bd971ec478 assets\firstmod\models\item\blue_sapphire_leggings_lapis_trim.json
 56f053567059ffda4c855d06a8ff4627851fccc3 assets\firstmod\models\item\blue_sapphire_hammer.json
+b40b22c25ccc7b4b201e14bcc7ef61bd971ec478 assets\firstmod\models\item\blue_sapphire_leggings_lapis_trim.json
 5593bcbe8b17abce12729ffa6961991ed7120320 assets\firstmod\models\item\blue_sapphire_boots_gold_trim.json
 61761d5e5f0f2531eb1b11bd77bae88140265539 assets\firstmod\models\block\blue_sapphire_trapdoor_bottom.json
 133e7644c80febf0e0be24f8b4e524d8fe37a4f1 assets\firstmod\models\block\blue_sapphire_door_top_left.json

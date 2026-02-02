@@ -9,6 +9,7 @@ import net.mohammed.firstmod.FirstMod;
 import net.mohammed.firstmod.item.custom.ChiselItem;
 import net.mohammed.firstmod.item.custom.HammerItem;
 import net.mohammed.firstmod.item.custom.ModArmorItem;
+import net.mohammed.firstmod.item.custom.SuperBowItem;
 
 public class ModItems {
     // --- INGREDIENTS ---
@@ -64,6 +65,9 @@ public class ModItems {
     public static final Item BLUE_SAPPHIRE_BOOTS = registerItem("blue_sapphire_boots",
             new ArmorItem(ModArmorMaterials.BLUE_SAPPHIRE_ARMOUR_MATERIALS, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(33))));
+    // Replace your old registration with this:
+    public static final Item SUPER_BOW = registerItem("super_bow",
+            new SuperBowItem(new Item.Settings().maxDamage(1000))); // Boosted durability for a "Super" bow
 
 
     // --- REGISTRATION HELPER ---
@@ -100,6 +104,7 @@ public class ModItems {
             fabricItemGroupEntries.add(BLUE_SAPPHIRE_CHESTPLATE);
             fabricItemGroupEntries.add(BLUE_SAPPHIRE_LEGGINGS);
             fabricItemGroupEntries.add(BLUE_SAPPHIRE_BOOTS);
+            fabricItemGroupEntries.add(SUPER_BOW);
         });
 
         // Add to Food Tab
