@@ -32,6 +32,7 @@
   "block.firstmod.blue_sapphire_door": "Blue Sapphire Door",
   "block.firstmod.blue_sapphire_trapdoor": "Blue Sapphire Trapdoor",
   "block.firstmod.blue_sapphire_lamp": "Blue Sapphire Lamp",
-  "block.firstmod.super_bow": "Super Bow"
+  "block.firstmod.super_bow": "Super Bow",
+  "effect.firstmod.sapphire_crystal": "Sapphire Crystal"
 
 }

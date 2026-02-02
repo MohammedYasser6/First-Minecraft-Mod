@@ -9,7 +9,8 @@
 		"defaultRequire": 1
 	},
 	"client": [
-		"AbstractClientPlayerEntityMixin"
+		"AbstractClientPlayerEntityMixin",
+		"InGameHudMixin"
 	],
 	"overwrites": {
 		"requireAnnotations": true

@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.mohammed.firstmod.block.ModBlocks;
 import net.mohammed.firstmod.component.ModDataComponentTypes;
+import net.mohammed.firstmod.effect.ModEffects;
 import net.mohammed.firstmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,6 +22,7 @@ public class FirstMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModDataComponentTypes.registerDataComponentTypes();
 		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
+		ModEffects.registerEffects();
 
 
 	}
