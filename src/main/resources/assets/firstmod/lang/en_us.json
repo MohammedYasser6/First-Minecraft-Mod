@@ -33,6 +33,9 @@
   "block.firstmod.blue_sapphire_trapdoor": "Blue Sapphire Trapdoor",
   "block.firstmod.blue_sapphire_lamp": "Blue Sapphire Lamp",
   "block.firstmod.super_bow": "Super Bow",
-  "effect.firstmod.sapphire_crystal": "Sapphire Crystal"
+  "effect.firstmod.sapphire_crystal": "Sapphire Crystal",
+  "item.minecraft.potion.effect.sapphire_crystal_potion": "Sapphire Crystal Potion",
+  "item.minecraft.splash_potion.effect.sapphire_crystal_potion": "Sapphire Crystal Potion",
+  "item.minecraft.lingring_potion.effect.sapphire_crystal_potion": "Sapphire Crystal Potion"
 
 }
